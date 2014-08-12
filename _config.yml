@@ -7,4 +7,4 @@ github: [Repository metadata]
 
 safe: true
 lsi: false
-source: your top-level directory
+source: ./ 
