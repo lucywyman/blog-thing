@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example post
-cover: cover.jpg
+cover: https://github.com/ElijahCaine/Cauldron-Blender3D-Mini-Project/blob/master/SacrificeUntextured.png
 date:   2013-12-09 12:00:00
 categories: posts
 ---
