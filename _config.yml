@@ -1,0 +1,10 @@
+name: Elijah Caine 
+markdown: redcarpet
+pygments: true
+
+highlighter: pygments
+github: [Repository metadata]
+
+safe: true
+lsi: false
+source: your top-level directory
