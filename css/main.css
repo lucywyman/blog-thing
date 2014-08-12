@@ -126,6 +126,7 @@ a:hover {
 #cover-photo-container,
 #info-container {
   display: block;
+  max-width: 725px;
 }
 
 #info-container {

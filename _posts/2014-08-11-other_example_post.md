@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Website! 
-cover: https://raw.githubusercontent.com/ElijahCaine/Cauldron-Blender3D-Mini-Project/master/SacrificeTexturedBackground.png 
+cover: new_website.png 
 date:   2014-08-11 12:00:00
 categories: posts misc
 ---
