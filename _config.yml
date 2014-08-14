@@ -1,10 +1,7 @@
-name: Elijah Caine 
+name: Flex
 markdown: redcarpet
 pygments: true
 
-highlighter: pygments
-github: [Repository metadata]
+excerpt_separator: <!--more-->
 
-safe: true
-lsi: false
-source: ./ 
+source: /home/eli/git_projects/website/

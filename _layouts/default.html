@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <!-- Google Analytics-->
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-48615202-2', 'auto');
-        ga('send', 'pageview');
-      </script>
-
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Flex - {{ page.title }}</title>
@@ -39,21 +28,28 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
+            {% for post in site.tags.top %}
               <li class="post-link">
-                <a class="post-title" href="/pg{{ post.url }}">
+                <a class="post-title" href="/pg/{{ post.url }}">
                   <span class="post-date">{{ post.date | date_to_string }}</span>
                   {{ post.title }}
                 </a>
               </li>
             {% endfor %}
+            <li class="post-link">
+              <a class="post-title" href=/pg/archive/>
+                <span class="post-date">———————</span>
+                The Rest
+              </a>
+            </li>
           </ul>
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
+            <a href="/pg/archive/" class="footer-link">Archive</a> <span class="separator"> | </span>
+            <a href="https://twitter.com/ElijahCaineMV" class="footer-link">Twitter</a> <span class="seperator"> | </span>
+            <a href="https://github.com/ElijahCaine" class="footer-link">Github</a> <span class="separator"> | </span>
+            <a href="/pg/about/" class="footer-link">About</a>
           </span>
         </div>
       </div>

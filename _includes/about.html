@@ -1,1 +1,35 @@
-<!-- ths is where about goes-->
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/pg/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="/pg/images/{{ page.cover }}">
+    </div>
+
+    <div id="info-container">
+      <h1 id="title">{{ page.title }}</h1>
+      <br>
+    </div>
+  {% for thepage in site.pages %} 
+  {% if thepage.tags == 'about' %}
+    <div id="info-container">
+      <div class="post">
+        {{ thepage.content | markdownify }}
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+  </div>
+  <div class="colophon">
+    <p>
+      {% for thepage in site.pages %} 
+      {% if thepage.tags == 'about' %}
+        <span id="pub-date">Last Updated on {{ thepage.date | date_to_string }}</span> <span class="separator">&bull;</span>
+        <span id="social">Find me on <a href="https://twitter.com/ElijahCaineMV">Twitter</a>!</span>
+        {% break %}
+      {% endif %}
+      {% endfor %}      
+    </p>
+  </div>
+</div>

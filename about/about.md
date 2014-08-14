@@ -4,9 +4,7 @@ title: First
 cover: cover.jpg
 date:   2013-12-09 12:00:00
 categories: posts
-tags:
-    - top 
-    - archive
+tags: about 
 ---
 
 ## Introducing Flex, a Jekyll theme
