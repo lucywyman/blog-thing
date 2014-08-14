@@ -30,7 +30,7 @@
           <ul class="posts-list">
             {% for post in site.tags.top %}
               <li class="post-link">
-                <a class="post-title" href="/pg/{{ post.url }}">
+                <a class="post-title" href="/pg{{ post.url }}">
                   <span class="post-date">{{ post.date | date_to_string }}</span>
                   {{ post.title }}
                 </a>

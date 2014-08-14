@@ -13,7 +13,7 @@
     </div>
 
   {% for post in site.tags.archive %}
-    <a href="{{post-link}}">
+    <a href="{{post.link}}">
     <div class="post">
       <span id="a-title">{{ post.title }}</span>
       <span id="a-date">{{ post.date | date_to_string }}</span>
