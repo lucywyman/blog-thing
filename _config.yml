@@ -3,5 +3,3 @@ markdown: redcarpet
 pygments: true
 
 excerpt_separator: <!--more-->
-
-source: /home/eli/git_projects/website/
