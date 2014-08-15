@@ -5,7 +5,7 @@ title:      test
 cover:      cover.jpg
 date:       2014-08-13 12:00:00
 categories: test 
-tags:       test
+tags:       test archive
 
 ---
 
