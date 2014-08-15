@@ -18,7 +18,7 @@
       <span id="a-title">{{ post.title }}</span>
       <span id="a-date">{{ post.date | date_to_string }}</span>
     </a>
-      <div id="a-content">{{ post.excerpt | remove: '<h2>' | remove: '</h2>' }}</div> 
+      <div id="a-content">{{ post.snippet | markdownify }}</div> 
     </div>
   {% endfor %}
   </div>

@@ -120,6 +120,7 @@ a:hover {
 
 #date {
   padding-top: 0.5em;
+  padding-bottom: em;
   margin-bottom: 2em;
 }
 
@@ -130,6 +131,7 @@ a:hover {
 
 #info-container {
   margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 #title {
