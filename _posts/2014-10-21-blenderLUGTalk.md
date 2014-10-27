@@ -12,4 +12,4 @@ snippet:    I make an introduction to blender talk that covers modeling, materia
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/rt-Izup2YWA" frameborder="0" allowfullscreen></iframe>
 
-Slides can be found at [elijahcaine.me/seagl2014](elijahcaine.me/seagl2014/)
+Slides can be found at [slides.elijahcaine.me/seagl2014/index.html](slides.elijahcaine.me/seagl2014/index.html)
