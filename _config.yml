@@ -5,4 +5,5 @@ highlighter: pygments
 
 excerpt_separator: <!--more-->
 permalink: :categories/:title
-source: ./
+source: /home/elijah/jekyll-site 
+destination: /var/www/blog/
