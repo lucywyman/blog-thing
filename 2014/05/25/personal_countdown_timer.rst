@@ -1,0 +1,36 @@
+Personal Countdown Timer
+========================
+
+End of Term (Click the image to be taken to the webpage):
+
+.. image:: http://i.imgur.com/0Ad6VCB.png
+    :height: 300px
+    :align: center
+
+A few years ago I heard that `Robert Khoo used Countdown Timers in his office
+<http://ow.ly/i/56Jev>`_. I thought this idea was really neat, and I've always
+been fascinated with how being aware of time can affect people and their
+actions, so I made the above. There's nothing like the number of days until the
+end of the term to light a fire under your ass.
+
+I wrote this in regular JavaScript with the help of some internet forum posts.
+I'm not very good at JavaScript so I figured I needed some practice and this
+was as good an opportunity as any. I was originally going to write it in
+`Sinatra <http://www.sinatrarb.com/>`_ but didn't have root access on the
+server that hosts this website so I couldn't install `Gem
+<https://rubygems.org/>`_ fair enough Sinatra itself. I could have found a
+workaround but I have finals to study for.
+
+The Color Scheme comes from Wolf Thaddeus at COLOURlovers and is titled `The
+Lodge at Tofino
+<http://www.colourlovers.com/palette/3381069/The_Lodge_at_Tofino>`_. I
+experimented with many themes and decided this one worked the best. I wanted it
+to look good but also be functional, I think I got pretty close to
+accomplishing that.
+
+Thanks for reading! -Elijah
+
+.. author:: default
+.. categories:: p52
+.. tags:: archive backlog project52
+.. comments::

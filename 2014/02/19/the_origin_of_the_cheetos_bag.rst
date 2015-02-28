@@ -4,11 +4,10 @@ The Origin of the Cheetos Bag
 blahblahbb
 
 .. raw:: html
- 
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/4ViwSeuWVfE" frameborder="0"
-    allowfullscreen></iframe>
 
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ybJ5DiHT0NM" frameborder="0" allowfullscreen></iframe>
+    </p>
                                                                                   
 Project2 is a live action film titled 'The Mystery of the Cheetos Bag'. It was
 produced by `Sam Hall <http://500px.com/samallenhall>`_ and myself about a month
@@ -22,4 +21,3 @@ delicious... cheesy... props.
 .. author:: default
 .. categories:: p52
 .. tags:: archive backlog project52
-.. comments:: Archive blogpost from a depreciated blog.

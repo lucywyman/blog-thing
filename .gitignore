@@ -1,2 +1,4 @@
 _site
 _site/*
+__pycache__
+blog

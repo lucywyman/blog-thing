@@ -1,0 +1,74 @@
+My First Attempt at RSA
+=======================
+
+Encryption is pretty cool... I just have to get that out of the way.               
+                                                                                   
+I recently finished listening to `Cryptonomicon
+<https://en.wikipedia.org/wiki/Cryptonomicon#Title>`_, which I highly suggest
+for anybody remotly interested in technology and cryptology, and realized that
+I think Cryptography is freaking awesome. This sparked my interest in
+cryptography, in addition to some on campus event's on `the same subject
+<https://www.priv.ly/>`_.
+                                                                                   
+As far as I understand it, modern data encryption works like this: You've got
+Alice and Bob. Alice wants to tell Bob a secret so she gives Bob something
+called a Public Key. Bob can then encrypt messages to Alice by using the Public
+Key in certain algorithms so that Alice, and only Alice (and not Bob), can read
+them-- because she has the private key. This means that two people can
+communicate by sending messages that literally only one person can see the
+contents of. It's pretty crazy stuff! Up until a few days ago I was convinced
+this worked through a series of wires, black magic, and ritual sacrifices. I
+still do, but just... less so. 
+                                                                                   
+Thanks to the `Simple English Wikipedia
+<https://simple.wikipedia.org/wiki/Main_Page>`_ I now understand the wonders of
+the `RSA Encryption Algorithm
+<https://simple.wikipedia.org/wiki/RSA_(algorithm)>`_; or at least more than I
+did previously. That isn't saying much, but I'm still very proud.
+                                                                                   
+For me, it's not good enough to just read the Wiki page on RSA-- on no-- I had
+to try and implement at least a crude version of the algorithm for educational
+purposes; using small values and printing out everything (public keys, private
+keys, unencrypted message, encrypted message, decrypted message, etc). 
+                                                                                   
+My first choice for an implementation language was `Lua <http://www.lua.org/>`_.
+I figured if I intend to write a whole game in Lua using
+`Love2D <https://love2d.org/>`_ I might as well get comfortable with it. 
+                                                                                   
+So a few days ago I got cracking. I spent a few hours writing an
+implementation, felt pretty good about where things were going, and then I
+started getting errors, like all of my decrypted messages being 'nil'... 
+                                                                                   
+I figured it was just some weird part of me not understanding the language
+enough so I switched over to C++, another language I might as well get
+comfortable in. Spent a few hours implementing the algorithm (the code wasn't
+that different, so it was faster the second time), and eventually hit the same
+problem. I kept getting 'inf' as an output... 
+                                                                                   
+I soon realized I was dealing with big numbers... `very big
+numbers <https://www.youtube.com/watch?v=M7kEpw1tn50>`_... bigger than a 'long
+long int' numbers. 
+                                                                                   
+I did some research and found some Lua and C++ libraries that could deal with
+Large Numbers, but after spending more time trying to deal with installing
+libraries (something I've never done before, and still technically haven't)
+than with the initial code I gave up. 
+                                                                                   
+I have failed to implement the RSA Algorithm. That isn't to say that I haven't
+learned a lot, in fact I've learned more about encryption in this past week
+than I have in the past 18 years of my life. I may have failed to succeed in my
+task, but I still gained a heckofalota knowledge and this may very well be a
+project I revisit later, due to my personal level of interest in the subject. I
+might even take a crack at implementing it with Python since it's integers can
+apparently be arbitrarily large.  
+                                                                                   
+All the code can be `viewed, cloned, and forked on my
+GitHub <https://github.com/ElijahCaine/RSA_attempts>`_ as usual. Take a look.
+Maybe I was just doing something wrong with my implementation and you can make
+it work with a simple fix. Who knows.
+                                                                                   
+Thanks for reading, -Elijah
+
+.. author:: default
+.. categories:: p52
+.. tags:: archive backlog project52

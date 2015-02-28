@@ -1,0 +1,44 @@
+My First Chrome Extension
+=========================
+
+`Chrome is a very popular web
+browser <http://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_table>`_.
+This is a fact. You may not use Chrome, you may have strong feelings about not
+using Chrome, and you may have strong feelings about people who do Chrome--
+that's fine.
+                                                                                   
+Because it is such a popular web-browser, this week's project is an extension
+for Chrome which reads my RSS feed and displays the recent posts I've made to
+Project52. If you don't want to subscribe to these through a fancy RSS reader,
+but you DO want to add a cool orange button to your Chrome window that does
+what I've just described, take a look at the `GitHubPage to find out how to
+install the
+extension <https://github.com/ElijahCaine/p52_chrome_extensiohttps://github.com/ElijahCaine/p52_chrome_extension>`_
+I promise it is very easy. If you aren't a fan of Chrome, I'm planning to port
+this concent to Firefox so you may be in luck. 
+                                                                                   
+The extension is very simple. It reads from my RSS feed (which usually only
+stores the three most recent posts I've made) and displays in a window the
+posts it found. The user is given the title of each post and a short
+introduction. It isn't a killer app, but it isn't supposed to be. The extension
+has one job and it delivers exactly as advertised; nothing more and nothing
+less. It has the potential for more functionality in the future (unread
+counter, deleting posts you've already read, etc) if I get industrious at some
+point, but it's not broken and that's all I can really ask for from my first
+shot at this.
+                                                                                   
+Here's a picture:                                                                  
+                                                                                   
+.. image:: http://i.imgur.com/8aqV6FF.png?1
+    :align: center
+    :alt: Just imagine your mouse hovering over that post. Gnome-screenshot doesn't caputre the cursor...
+                                                                                   
+{Obligatory Thanks} This couldn't have gotten done without the couple dozen
+posts I found on Stack Overflow, the `jquery-rss
+project <https://github.com/sdepold/jquery-rss>`_, and `Google's Chrome-Extension
+tutorials <https://developer.chrome.com/extensions/getstarted>`_. Thank you
+Internet.
+
+.. author:: default
+.. categories:: p52
+.. tags:: archive backlog project52

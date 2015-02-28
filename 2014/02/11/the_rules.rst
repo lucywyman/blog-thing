@@ -39,4 +39,3 @@ Update: It's now called Project52
 .. author:: default
 .. categories:: p52
 .. tags:: archive backlog project52
-.. comments:: Archive blogpost from a depreciated blog.

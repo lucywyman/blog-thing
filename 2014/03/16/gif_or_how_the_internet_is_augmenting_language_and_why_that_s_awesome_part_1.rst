@@ -1,0 +1,139 @@
+.gif -or- How the Internet is Augmenting Language *and* Why That's Awesome... Part 1
+====================================================================================
+
+.. image:: http://i.imgur.com/4E9rWr6.gif
+    :align: center
+
+"A picture is worth 1000 words. The average .gif is about 100 frames so that's
+like... 10,000 words right?"
+
+The animated '.gif' is just one example of how people can communicate on the
+internet with more than just words. Gifs have made me laugh, they've made me
+cry, and somehow they've made me feel connected to this llama in in a
+surprisingly spiritual way. The most important thing the .gif has done is that
+it's made me feel connected with the person on the other side of my screen.
+These vignettes give one a window into the internet's real feelings better than
+their words ever could. I propose that the animated .gif is improving our our
+ability to communicate online for the following reasons:
+
+*1: Language is for communication.*
+-----------------------------------
+
+People can argue about semantics and syntax till the cows come home but in the
+end all that matters is the transfer of ideas. It may not be elegant but as
+long as the message gets from person A to person B, language has done its job.
+Anything which can improve and optimize this process does so for language as a
+whole. If somebody is able to communicate more effectively with a picture than
+with their words they should not be criticized; they're just using the tools at
+their disposal (the entire internet) to its full potential.
+
+*2. Language is evolving.*
+--------------------------
+
+If you've read Shakespeare you can tell where I'm going with this. Language is
+constantly being edited, added to, modified, and abridged. English isn't a
+static set of rules and vocabulary created hundreds of years ago, it is fluid
+and changing every day and thanks to the internet it's changing faster than
+ever. It may be hard to accept for a die-hard fan of the written word, but
+things change. Right now the way we communicate is moving towards using not
+only words but pictures, videos, sounds, and memes all at the same time. It's
+actually pretty cool if you don't fight it.
+
+*3. People are bad at writing on the internet.*
+-----------------------------------------------
+
+There are a lot of great writers. There are even a lot of great writers on the
+internet. Unfortunately the vast majority of the written content on the
+internet is terrible and unless we are willing to hire personal editors for our
+YouTube comments, this isn't going to change any time soon. We read badly
+written content, so we create badly written content-- it's an English teacher's
+worst nightmare.
+
+*4. The internet isn't going away.*
+-----------------------------------
+
+The internet is constantly growing and if anything it's going to continue to
+grow until everybody who wants to be on the internet is. The internet isn't
+going anywhere and neither are the ways we communicate on it. There will always
+be IRC, mailing lists, message boards, and of course comments with .gifs.
+
+With these ideas we can summarize that the internet is a huge place with lots
+of people who don't know how to write, but they don't really care because
+they're just trying to communicate with one another. The problem with this
+picture being that we aren't able to adequately communicate because we suck at
+writing.
+
+With these ideas we can summarize that the internet is a huge place with lots
+of people who don't know how to write, but they don't really care because
+they're just trying to communicate with one another. The problem with this
+picture being that we aren't able to adequately communicate because we suck at
+writing.
+
+Enter: the .gif.
+
+.. image:: http://i.imgur.com/9EAUXe9.gif
+    :align: center
+
+The animated .gif is able to augment written content and sometimes replace it
+all together. It allows us to be bad writers but not let that get in the way of
+the ideas we're trying to share. It does what most people aren't able to do
+with their own writing: show, not tell. Not just in the literal sense that it
+is a picture that you are showing to others, but it describes with greater
+detail and accuracy what we are trying to say than most are capable of, or
+willing to, write.
+
+The .gif gives many a way to express their feelings with pinpoint accuracy to
+countless anonymous individuals. It gives one the ability to be concise, to the
+point, and true to their intended message while also standing out in a sea of
+text. In a way, the .gif give those a voice who don't have one... or at least
+those who aren't very good at utilizing the one they already have.
+
+So next time you're convinced kids these days are ruining English with their
+cat gifs, just remember...
+
+.. image:: http://i.imgur.com/VYDHQ9p.gif
+    :align: center
+
+*To prove my point, here's a little story told with the aid of .gifs:*
+
+This last term I took a really difficult class called 'Discrete Mathematics'.
+It mostly deals with concepts like sets of numbers, graphs, and counting. As
+simple as that sounds I spent most of my class really...
+
+.. image:: http://i.imgur.com/N9VTT8C.gif
+    :align: center
+
+... confused.
+
+I sat next to a friend who is really full of himself. He was always able to
+work into a conversation how easy and intuitive discrete was.
+
+.. image:: http://i.imgur.com/3fyJiFZ.gif
+    :align: center
+
+We took our second midterm a few weeks ago and despite his alleged intuitive
+understanding he immediately started having a breakdown.
+
+.. image:: http://i.imgur.com/FOCHWq3.gif
+    :align: center
+
+Half way through he gave up and turned in his unfinished test with regret in
+his eyes.
+
+Later I found him and asked what happened. He said he just didn't get it and it
+was a total bs class. I recalled when he told me how 'intuitive' and 'easy' it
+was earlier...
+
+.. image:: http://i.imgur.com/PzJNBYL.gif
+    :align: center
+
+... but I didn't say anything.
+
+In the end I got an A and he bombed the class.
+
+.. image:: http://i.imgur.com/FczeCkC.gif
+    :align: center
+
+.. author:: default
+.. categories:: p52
+.. tags:: archive backlog project52

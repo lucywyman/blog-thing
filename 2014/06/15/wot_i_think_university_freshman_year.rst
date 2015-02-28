@@ -1,0 +1,166 @@
+Wot I Think- University- Freshman Year
+======================================
+
+.. image:: http://socialatlasell.files.wordpress.com/2011/10/0511-0708-0214-0567_stressed_schoolboy_clipart_image.jpg
+    :align: center
+    :height: 300px
+
+*This piece is a reflection of my personal experience being a Freshman at
+`Oregon State University <http://oregonstate.edu/>`_. The format of this piece is
+inspired by `Rock, Paper, Shotgun’s ‘Wot I Think’
+series <http://www.rockpapershotgun.com/2014/05/29/among-the-sleep-review-horror-pc/>`_,
+which is essentially a series of game reviews which don't give the reader stars
+or ‘good’/‘bad’ conclusions but rather personal experiences and anecdotes,
+letting the reader conclude the merit of the game for themselves. This is no
+guarantee that my review is as well constructed as an R.P.S. review.
+
+This is also not a review of Oregon State University but rather the parts of my
+freshman year which I feel are universally applicable to every Universities’
+programs. Anything that sounds like a review of OSU is purely accidental.
+Woops!*
+
+College has become a necessity. Despite what your grandparent’s might say about
+how “It’s all optional and you really don’t need to bother getting a degree to
+make great money and have a life-long career” a college degree is a modern
+necessity for every competitive job market. One might be able to get work
+without a degree but when it comes time to get a raise, even if you work harder
+and get more done, some other guy with the same title and a degree is probably
+getting the pay bump while you don’t. At least that’s what I’m told; I’ve never
+been 40 years old in the job market asking for a raise without a college
+degree.
+
+College is an interesting idea, at least based on the stories I’ve been told.
+It boils down to being a buffer between High School and the ‘Real World’. In
+theory you learn about yourself, get job experience, and get all that crazy
+manic behaviour out of your system before embarking on the rest of your life.
+College is where you’re allowed to mature and incubate in an academically
+stimulating environment and to hopefully find out what you are passionate about
+so you can pay tens of thousands of dollars to get a degree in it. There’s a
+lot of people that benefit from that buffer and most people do get a lot out of
+college... like what they want to do with the rest of their lives... and how
+many shots it takes before they start forgetting things.
+
+Freshman year specifically is an interesting experience because one gets to see
+how individuals deal with a massive spike in freedom and independence. Living
+in the dorms you can tell immediately how many people had never had any real
+freedom before Dorm Move-In Day, and quite frankly most were not mentally
+prepared for the system shock that resulted. Week Three is about the time
+everybody goes out and parties for the first time and Saturday of Week Three
+you can see the misery in their eyes which says something between “I regret
+everything” and “Where is the bathroom again?” These people, the ones who can’t
+moderate themselves to save their lives, are the reason I’m okay with OSU’s
+requirement to live on campus for the first year. It’s expensive as hell but I
+honestly believe these people wouldn’t make it their first year if there
+weren’t dining halls everywhere, laundry in the basement, and class wasn’t a
+three minute walk away.
+
+When it comes to classes I almost feel silly talking about them as actual
+classes or challenges in any way. I of course learned a lot in a few of my
+courses, but I’ve gotten conditioned to be a little embarrassed to talk about
+the Freshman class-load to anybody who’s not a freshman because of how easy it
+all is. The classes aren’t exactly a breeze, but I also can’t say they’re
+anything more than tedious at their most challenging. I enjoyed parts of the
+curriculum, but everything felt like a requirement, which anybody who has been
+assigned reading for school knows: if it’s a requirement, it sucks. I liked
+some classes and hated others, but overall they just got in the way of all the
+other stuff I wanted to do. They didn’t usually engage me enough make me think
+what I was doing was worth anything beyond the grade I would get at the end.
+This might be different at an Ivy League University or a world class school for
+my specific major, but I’m comfortable saying this is universal because most
+people don’t go to an Ivy Leagues and most people I talk to don’t focus on the
+classes when talking about their ‘College Experience’.
+
+As far as paid positions are concerned, there’s definitely a dismissive
+attitude toward freshman at job fairs and other job-searching venues. This
+makes sense since most freshman don’t have much more than a high-school
+education and are still ‘kids’; plus they’re not under the same time pressure
+as a junior or senior level student to get internships and work experience
+before they graduate. This of course didn’t stop me and my peers from getting
+summer jobs and internships, but these were almost all gotten through our own
+means and not job fairs
+
+Freshman year specifically is an interesting experience because one gets to see
+how individuals deal with a massive spike in freedom and independence. Living
+in the dorms you can tell immediately how many people had never had any real
+freedom before Dorm Move-In Day, and quite frankly most were not mentally
+prepared for the system shock that resulted. Week Three is about the time
+everybody goes out and parties for the first time and Saturday of Week Three
+you can see the misery in their eyes which says something between “I regret
+everything” and “Where is the bathroom again?” These people, the ones who can’t
+moderate themselves to save their lives, are the reason I’m okay with OSU’s
+requirement to live on campus for the first year. It’s expensive as hell but I
+honestly believe these people wouldn’t make it their first year if there
+weren’t dining halls everywhere, laundry in the basement, and class wasn’t a
+three minute walk away.
+
+When it comes to classes I almost feel silly talking about them as actual
+classes or challenges in any way. I of course learned a lot in a few of my
+courses, but I’ve gotten conditioned to be a little embarrassed to talk about
+the Freshman class-load to anybody who’s not a freshman because of how easy it
+all is. The classes aren’t exactly a breeze, but I also can’t say they’re
+anything more than tedious at their most challenging. I enjoyed parts of the
+curriculum, but everything felt like a requirement, which anybody who has been
+assigned reading for school knows: if it’s a requirement, it sucks. I liked
+some classes and hated others, but overall they just got in the way of all the
+other stuff I wanted to do. They didn’t usually engage me enough make me think
+what I was doing was worth anything beyond the grade I would get at the end.
+This might be different at an Ivy League University or a world class school for
+my specific major, but I’m comfortable saying this is universal because most
+people don’t go to an Ivy Leagues and most people I talk to don’t focus on the
+classes when talking about their ‘College Experience’.
+
+As far as paid positions are concerned, there’s definitely a dismissive
+attitude toward freshman at job fairs and other job-searching venues. This
+makes sense since most freshman don’t have much more than a high-school
+education and are still ‘kids’; plus they’re not under the same time pressure
+as a junior or senior level student to get internships and work experience
+before they graduate. This of course didn’t stop me and my peers from getting
+summer jobs and internships, but these were almost all gotten through our own
+means and not job fairs.
+
+Free-time was interesting because I had quite a bit of it. There were of course
+the first few weeks in which I had to learn to take care of myself as well as
+get my classwork done; I’ll admit there were a few missed meals that first
+quarter. By the end of the first term I was almost completely self-sufficient
+and had a handle on all my classes. I was able to join a club full of excited
+and passionate tech-enthused individuals called the `Linux User’s
+Group <http://lug.osuosl.org/>`_ and I’m glad I did. The passion found at LUG is
+something I’ve always gravitated towards, and I’m excited I was able to find
+such an awesome group of people so early on in my College Career. I learned a
+lot being immersed in that environment and through those connections got a job
+at the [Open Source Lab](http://osuosl.org/) on campus as a student developer,
+a position I’m very excited for and will probably write about further after
+I’ve gotten my legs.
+
+I can’t say I strictly enjoyed my freshman year of college but I do expect
+things to get better as the years go on. When one looks on paper I seem to be
+on track to having my life together (e.g., moderate to high grades, getting a
+job, befriending interesting people) but something about the whole experience
+causes me to feel... crummy(e.g., feeling physically miserable, constant mental
+fatigue and physical exhaustion, a lack of personal connection with many of my
+peers). This underlying current of crummy (I honestly can’t think of a better
+word for it right now, sorry) has dampened the rest of my success making it
+difficult to celebrate what I have done well because there is always this
+nagging feeling in the back of my head that what I am doing is wrong and even
+though I should be happy that feeling isn’t there. The hardest part of this
+nagging feeling of ‘crummy’ is that I don’t know what I could do that would
+feel ‘better’ so I keep chugging along. This of course is a discussion for
+another day after I’ve meditated on it for a while and gotten to know myself a
+lot better.
+
+.. image:: http://i.imgur.com/KXm1b0J.png
+    :align: center
+    :height: 300px
+
+Thank you `FunnyJunk
+<http://www.funnyjunk.com/channel/funny/What+Being+a+College+freshman+feels+like/TrevGGe>`_/Parks
+and Rec/Chris Pratt. You know me so well.
+
+There you have it. That’s Wot I Think of Freshman Year. Thank you for reading.
+-Elijah
+
+
+.. author:: default
+.. categories:: none
+.. tags:: none
+.. comments::
