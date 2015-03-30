@@ -112,4 +112,3 @@ mean somebody else is wrong for using something different.
 .. author:: default
 .. categories:: p52 
 .. tags:: archive backlog project52
-.. comments:: Archive blogpost from a depreciated blog.

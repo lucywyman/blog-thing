@@ -41,4 +41,3 @@ This was a failed project, but I thought it was a cool idea.
 .. author:: default
 .. categories:: p52
 .. tags:: archive backlog project52
-.. comments::

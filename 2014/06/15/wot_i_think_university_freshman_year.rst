@@ -161,6 +161,5 @@ There you have it. That’s Wot I Think of Freshman Year. Thank you for reading.
 
 
 .. author:: default
-.. categories:: none
-.. tags:: none
-.. comments::
+.. categories:: p52
+.. tags:: project52 archive 

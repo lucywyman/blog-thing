@@ -33,4 +33,3 @@ Thanks for reading! -Elijah
 .. author:: default
 .. categories:: p52
 .. tags:: archive backlog project52
-.. comments::
