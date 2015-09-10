@@ -1,9 +1,0 @@
-name: Elijah Caine 
-markdown: redcarpet
-# pygments: true
-highlighter: pygments
-
-excerpt_separator: <!--more-->
-permalink: :categories/:title
-source: /home/elijah/jekyll-site 
-destination: /var/www/blog/
