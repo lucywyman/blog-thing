@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+
+<title>A Test Run</title>
+<link rel='stylesheet' type='text/css' href='style.css'>
+
+</head>
+
+<!-- TRADING PLACES TRADING PLACES TRADING PLACES-->
+
+<body>
+<div id='container'>
+
+<header>
+<a href='/'>
+<img src='http://share.elijahcaine.me/blog_cover.jpg' class='header'></img>
+</a>
+</header>
+
+<main>
+<article>
+<h1> {{ article['title'] }}</h1>
+{{ article['body'] }}
+</article>
+</main>
+
+<nav>
+	<h2> Posts </h2>
+	<ul>
+	{% for e in navigation %}
+	{% if e['url'] != '/index/' %}
+		<li>
+		<a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+		</li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</nav>
+
+<footer>
+I'm not sure it's really supposed to make sense...
+</footer>
+
+</div>
+</body>
