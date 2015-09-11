@@ -9,3 +9,5 @@ sourcedir: 'posts/'
 
 listing:
     - A New Coat of Pain: new_paint.rst
+
+archive_cutoff: 7

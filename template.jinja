@@ -17,24 +17,24 @@
 </a>
 </header>
 
-<main>
-<article>
-<h1> {{ article['title'] }}</h1>
-{{ article['body'] }}
-</article>
-</main>
+{% block content %}{% endblock %}
 
 <nav>
-	<h2> Posts </h2>
-	<ul>
-	{% for e in navigation %}
-	{% if e['url'] != '/index/' %}
-		<li>
-		<a href="{{ e['url'] }}"> {{ e['title'] }} </a>
-		</li>
-	{% endif %}
-	{% endfor %}
-	</ul>
+<h2> Posts </h2>
+<ul>
+{% for e in navigation %}
+    {% if loop.index <= archive_cutoff %}
+    {% if e['url'] != '/index/' %}
+    <li>
+    <a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+    </li>
+    {% endif %}
+    {% endif %}
+{% endfor %}
+    <li>
+    <a href="{{ archive_url }}"> Archive </a>
+    </li>
+</ul>
 </nav>
 
 <footer>

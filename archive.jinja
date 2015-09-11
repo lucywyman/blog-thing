@@ -1,0 +1,15 @@
+{% extends 'template.jinja' %}
+{% block content %}
+<main>
+<article>
+<h1>Archive</h1>
+<ul>
+{% for p in page_list %}
+    <li>
+    <a href="{{ p['url'] }}"> {{ p['title'] }} </a>
+    </li>
+{% endfor %}
+</ul>
+</article>
+</main>
+{% endblock %}
