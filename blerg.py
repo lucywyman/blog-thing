@@ -16,6 +16,13 @@ metadata_file = 'metadata.yml'
 # like a hack it's becuase this wasn't global initially.
 with open(metadata_file, 'r') as f:
     md = yaml.load(f)
+
+for element in md:
+    try:
+        md[element].replace('/content','')
+    except:
+        pass
+
 archive_cutoff = md['archive_cutoff']
 
 
@@ -23,6 +30,7 @@ def collect():
     """
     Collects a site's metadata.
     """
+
     d = []
 
     for t in md['listing']:
@@ -30,7 +38,6 @@ def collect():
         d.append(collect_single(t))
 
     d.append(collect_single({md['title']: md['homepage']}))
-
     return d
 
 
@@ -42,6 +49,8 @@ def collect_single(info=None):
     md['title'] = list(info.keys())[0]
     md['filename'] = info[md['title']]
     md['url'] = '/'+md['filename'].replace('.rst','')+'/'
+    md['url'] = md['url'].replace('/content','')
+    print(md)
     return md
 
 
@@ -49,8 +58,6 @@ def render():
     """
     Renders the site.
     """
-    print(nav)
-
     for element in nav:
         render_single(element)
 
