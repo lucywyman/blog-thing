@@ -85,6 +85,7 @@ def render_single(info=None):
         page = template.render(title=title,
            article=body,
            style='style.css',
+           jquery='jquery-1.11.3.min.js',
            archive_url=archive_url,
            archive_cutoff=archive_cutoff,
            filename=info['filename'],
@@ -93,6 +94,7 @@ def render_single(info=None):
     try:
         makedirs('./build/')
         copy2(md['style'], './build/style.css')
+        copy2(md['jquery'], './build/jquery-1.11.3.min.js')
     except:
         pass
 
@@ -107,6 +109,7 @@ def render_single(info=None):
         with open('./build/'+info['url']+'index.html', 'w') as f:
             f.write(page)
             copy2(md['style'], './build/'+info['url']+'/style.css')
+            copy2(md['jquery'], './build/'+info['url']+'/jquery-1.11.3.min.js')
     archive()
 
 
@@ -127,6 +130,7 @@ def archive():
         env = Environment(loader=loader)
         template = env.get_template(md['archive_template'])
         page = template.render(style='style.css',
+                               jquery='jquery-1.11.3.min.js',
                                archive_url=archive_url,
                                archive_cutoff=archive_cutoff,
                                is_archive=True,
@@ -136,6 +140,7 @@ def archive():
     try:
         makedirs('./build/')
         copy2(md['style'], './build/style.css')
+        copy2(md['jquery'], './build/jquery-1.11.3.min.js')
     except:
         pass
 
@@ -146,6 +151,7 @@ def archive():
     with open('./build/archive/index.html', 'w') as f:
         f.write(page)
         copy2(md['style'], './build/archive/style.css')
+        copy2(md['jquery'], './build/archive/jquery-1.11.3.min.js')
 
 
 if __name__ == '__main__':

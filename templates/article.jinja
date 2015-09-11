@@ -1,9 +1,8 @@
 {% extends 'templates/template.jinja' %}
+
 {% block content %}
-<main>
 <article>
-<h1> {{ article['title'] }}</h1>
-{{ article['body'] }}
+  <h1>{{ article['title'] }}</h1>
+  {{ article['body'] }}
 </article>
-</main>
 {% endblock %}

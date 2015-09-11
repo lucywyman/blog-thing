@@ -3,6 +3,7 @@ title: 'A Work in Progress'
 archive_template: 'templates/archive.jinja'
 article_template: 'templates/article.jinja'
 style: 'templates/style.css' 
+jquery: 'templates/jquery-1.11.3.min.js'
 
 homepage: 'content/index.rst'
 

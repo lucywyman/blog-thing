@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<html>
 <head>
 
 <title>A Blog-ey Kinda Thing</title>
 <link rel='stylesheet' type='text/css' href='style.css'>
+<script type='text/javascript' src='jquery-1.11.3.min.js'></script>
 
 </head>
 
@@ -10,51 +12,58 @@
 
 <body>
 <div id='container'>
+  <header>
+    <a href='/'>
+      <img src='https://farm6.staticflickr.com/5813/20476814090_97752519fb_o.jpg' class='header'></img>
+    </a>
+  </header>
 
-<header>
-<a href='/'>
-<img src='https://farm6.staticflickr.com/5813/20476814090_97752519fb_o.jpg' class='header'></img>
-</a>
-</header>
+  <nav>
+    <button id='toggle'>&#9776;</button>
+    <h2>Posts</h2>
+    <ul>
+      {% for e in navigation %}
+      {% if loop.index <= archive_cutoff %}
+      {% if e['url'] != '/index/' %}
+      <li>
+      {% if e['filename'] == filename %}
+      <strong>
+        <a href="{{ e['url'] }}">{{ e['title'] }}</a>
+      </strong>
+      {% else %}
+      <a href="{{ e['url'] }}">{{ e['title'] }}</a>
+      {% endif %}
+      </li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      <li>
+      {% if filename == 'archive' %}
+      <strong>
+        <a href="{{ archive_url }}">Archive</a>
+      </strong>
+      {% else %}
+      <a href="{{ archive_url }}">Archive</a>
+      {% endif %}
+      </li>
+    </ul>
+  </nav>
 
-{% block content %}{% endblock %}
+  {% block content %}{% endblock %}
 
-<nav>
-<h2>Posts & Updates</h2>
-<ul>
-{% for e in navigation %}
-    {% if loop.index <= archive_cutoff %}
-    {% if e['url'] != '/index/' %}
-    <li>
-    {% if e['filename'] == filename %}
-    <strong>
-    <a href="{{ e['url'] }}">{{ e['title'] }}</a>
-    </strong>
-    {% else %}
-    <a href="{{ e['url'] }}">{{ e['title'] }}</a>
-    {% endif %}
-    </li>
-    {% endif %}
-    {% endif %}
-{% endfor %}
-    <li>
-    {% if filename == 'archive' %}
-    <strong>
-    <a href="{{ archive_url }}">Archive</a>
-    </strong>
-    {% else %}
-    <a href="{{ archive_url }}">Archive</a>
-    {% endif %}
-    </li>
-</ul>
-</nav>
-
-<footer>
-Cover Image by <a href='https://www.flickr.com/photos/123432654@N05/'>Sam Hall</a> | 
-<a href='http://elijahcaine.me'>Main Website</a> | 
-<a href='https://github.com/ElijahCaine/blog-thing'>Source on Github</a> | 
-I'm not sure it's supposed to make sense...
-</footer>
-
+  <footer>
+    Cover Image by <a href='https://www.flickr.com/photos/123432654@N05/'>Sam Hall</a> | 
+    <a href='http://elijahcaine.me'>Main Website</a> | 
+    <a href='https://github.com/ElijahCaine/blog-thing'>Source on Github</a>
+  </footer>
 </div>
+
+<script>
+$('nav button#toggle').click(function() {
+      $('ul').slideToggle(200, function() {
+            // Animation complete.
+          });
+      });
+</script>
 </body>
+</html>

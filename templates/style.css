@@ -1,32 +1,55 @@
 #container {
-    width: 95%;
-    max-width: 800px;
-    font-family: monospace;
+    width: 80vw;
+    max-width: 1000px;
+    min-width: 300px;
     margin: 0 auto;
-    color: black;
     background: white;
+    color: black;
+    font-family: georgia,"times new roman",times,serif;
 }
 
 header {
     width: 100%;
     text-align: center;
-    border-bottom-style: dotted;
+    border-bottom: dotted black;
 }
 
 article {
+    display: inline-block;
     width: 70%;
-    float: right;
+    padding: 10px;
 }
 
 nav {
-    width: 29%;
-    float: left;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+nav #toggle {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 22px;
+  background: black;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#toggle:hover {
+  cursor: pointer;
+}
+
+nav li {
+    padding: 5px 0px;
 }
 
 footer {
-    border-top-style: dotted;
+    border-top: dotted black;
     width: 100%;
-    display: flex;
 }
 
 img {
@@ -34,13 +57,53 @@ img {
 }
 
 h1 cite {
-    color: #FFF;
-    background: #222;
-    padding-left: 4px;
-    padding-right: 4px;
+    display: block;
+    padding: 5px 0px;
+    color: black;
+    font-size: 16px;
+}
+
+a {
+  color: #326891;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer {
+    padding: 10px 0px;
+    text-align: center;
 }
 
 footer a {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
 }
+
+@media (max-width: 600px) {
+    nav ul, nav h2 {
+      display: none;
+   }
+
+    nav {
+      background: black;
+      color: white;
+      width: 100%;
+      margin: 10px auto 0;
+    }
+
+    nav #toggle {
+      display: block;
+    }
+    
+    nav ul li a {
+      color: white;
+      font-size: 1.2em; /* It looks hard to read at 1em on my machine */
+    }
+
+    article {
+        width: 80vw;
+    }
+  }
