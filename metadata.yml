@@ -1,11 +1,12 @@
 title: 'A Work in Progress'
 
-template: 'template.jinja'
-style: 'style.css' 
+archive_template: 'templates/archive.jinja'
+article_template: 'templates/article.jinja'
+style: 'templates/style.css' 
 
-homepage: 'index.rst'
+homepage: 'content/index.rst'
 
-sourcedir: 'posts/'
+sourcedir: 'content/posts/'
 
 listing:
     - A New Coat of Pain: new_paint.rst

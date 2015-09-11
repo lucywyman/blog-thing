@@ -71,10 +71,10 @@ def render_single(info=None):
     for element in body:
         body[element].replace('\\n','')
 
-    with open('article.jinja', 'r') as f:
+    with open(md['article_template'], 'r') as f:
         loader = FileSystemLoader(getcwd())
         env = Environment(loader=loader)
-        template = env.get_template('article.jinja')
+        template = env.get_template(md['article_template'])
         page = template.render(title=title,
            article=body,
            style='style.css',
@@ -84,7 +84,7 @@ def render_single(info=None):
 
     try:
         makedirs('./build/')
-        copy2('./style.css', './build/style.css')
+        copy2(md['style'], './build/style.css')
     except:
         pass
 
@@ -98,14 +98,14 @@ def render_single(info=None):
             pass
         with open('./build/'+info['url']+'index.html', 'w') as f:
             f.write(page)
-            copy2('./style.css', './build/'+info['url']+'/style.css')
+            copy2(md['style'], './build/'+info['url']+'/style.css')
     archive()
 
 
 def archive():
     """
     Returns the url for the archive and generates the archive page.
-    requries the existences of a ./archive.jinja file
+    requries the existences of a .templates/archive.jinja file
     """
     info = []
 
@@ -113,10 +113,10 @@ def archive():
         if i['filename'] != 'index.rst':
             info.append(i)
 
-    with open('archive.jinja', 'r') as f:
+    with open(md['archive_template'], 'r') as f:
         loader = FileSystemLoader(getcwd())
         env = Environment(loader=loader)
-        template = env.get_template('archive.jinja')
+        template = env.get_template(md['archive_template'])
         page = template.render(style='style.css',
                                archive_url='/archive/',
                                archive_cutoff=archive_cutoff,
@@ -124,7 +124,7 @@ def archive():
 
     try:
         makedirs('./build/')
-        copy2('./style.css', './build/style.css')
+        copy2(md['style'], './build/style.css')
     except:
         pass
 
@@ -134,7 +134,7 @@ def archive():
         pass
     with open('./build/archive/index.html', 'w') as f:
         f.write(page)
-        copy2('./style.css', './build/archive/style.css')
+        copy2(md['style'], './build/archive/style.css')
 
 
 if __name__ == '__main__':
