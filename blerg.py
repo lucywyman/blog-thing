@@ -38,7 +38,6 @@ def collect_single(info=None):
     """
     Collects metada for a given rst file.
     """
-
     md = {}
     md['title'] = list(info.keys())[0]
     md['filename'] = info[md['title']]
@@ -50,10 +49,9 @@ def render():
     """
     Renders the site.
     """
-    md = collect()
-    print(md)
+    print(nav)
 
-    for element in md:
+    for element in nav:
         render_single(element)
 
 
@@ -61,7 +59,6 @@ def render_single(info=None):
     """
     Renders a given rst file.
     """
-
     file_content = {}
 
     with open(info['filename']) as f:
@@ -69,7 +66,6 @@ def render_single(info=None):
 
     title = info['title']
     body = file_content
-    nav = collect()
     archive_url='/archive/'
 
     for element in body:
@@ -111,10 +107,9 @@ def archive():
     Returns the url for the archive and generates the archive page.
     requries the existences of a ./archive.jinja file
     """
-    tmp = collect()
     info = []
 
-    for i in tmp:
+    for i in nav:
         if i['filename'] != 'index.rst':
             info.append(i)
 
@@ -125,7 +120,7 @@ def archive():
         page = template.render(style='style.css',
                                archive_url='/archive/',
                                archive_cutoff=archive_cutoff,
-                               page_list=info)
+                               navigation=info)
 
     try:
         makedirs('./build/')
@@ -143,4 +138,5 @@ def archive():
 
 
 if __name__ == '__main__':
+    nav = collect()
     render()
