@@ -26,7 +26,13 @@
     {% if loop.index <= archive_cutoff %}
     {% if e['url'] != '/index/' %}
     <li>
+    {% if e['filename'] == filename %}
+    <strong>
     <a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+    </strong>
+    {% else %}
+    <a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+    {% endif %}
     </li>
     {% endif %}
     {% endif %}

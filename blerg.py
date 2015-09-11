@@ -87,6 +87,7 @@ def render_single(info=None):
            style='style.css',
            archive_url=archive_url,
            archive_cutoff=archive_cutoff,
+           filename=info['filename'],
            navigation=nav)
 
     try:
@@ -115,6 +116,7 @@ def archive():
     requries the existences of a .templates/archive.jinja file
     """
     info = []
+    archive_url = '/archive/'
 
     for i in nav:
         if i['filename'] != 'content/index.rst':
@@ -125,8 +127,9 @@ def archive():
         env = Environment(loader=loader)
         template = env.get_template(md['archive_template'])
         page = template.render(style='style.css',
-                               archive_url='/archive/',
+                               archive_url=archive_url,
                                archive_cutoff=archive_cutoff,
+                               is_archive=True,
                                navigation=info)
 
     try:

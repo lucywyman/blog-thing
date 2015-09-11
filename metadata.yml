@@ -9,6 +9,7 @@ homepage: 'content/index.rst'
 sourcedir: 'content/posts/'
 
 listing:
+    - An Update on the Update: rebuild_update.rst
     - A New Coat of Pain: new_paint.rst
 
 archive_cutoff: 7
