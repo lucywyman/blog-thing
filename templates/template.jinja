@@ -6,7 +6,7 @@
 
 </head>
 
-<!-- TRADING PLACES TRADING PLACES TRADING PLACES-->
+<!-- Quit looking at my source code! It's indecent. I'm not even dressed...-->
 
 <body>
 <div id='container'>
@@ -20,7 +20,7 @@
 {% block content %}{% endblock %}
 
 <nav>
-<h2> Posts </h2>
+<h2>Posts & Updates</h2>
 <ul>
 {% for e in navigation %}
     {% if loop.index <= archive_cutoff %}
@@ -28,10 +28,10 @@
     <li>
     {% if e['filename'] == filename %}
     <strong>
-    <a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+    <a href="{{ e['url'] }}">{{ e['title'] }}</a>
     </strong>
     {% else %}
-    <a href="{{ e['url'] }}"> {{ e['title'] }} </a>
+    <a href="{{ e['url'] }}">{{ e['title'] }}</a>
     {% endif %}
     </li>
     {% endif %}
@@ -40,17 +40,20 @@
     <li>
     {% if filename == 'archive' %}
     <strong>
-    <a href="{{ archive_url }}"> Archive </a>
+    <a href="{{ archive_url }}">Archive</a>
     </strong>
     {% else %}
-    <a href="{{ archive_url }}"> Archive </a>
+    <a href="{{ archive_url }}">Archive</a>
     {% endif %}
     </li>
 </ul>
 </nav>
 
 <footer>
-I'm not sure it's really supposed to make sense...
+Cover Image by <a href='https://www.flickr.com/photos/123432654@N05/'>Sam Hall</a> | 
+<a href='http://elijahcaine.me'>Main Website</a> | 
+<a href='https://github.com/ElijahCaine/blog-thing'>Source on Github</a> | 
+I'm not sure it's supposed to make sense...
 </footer>
 
 </div>
