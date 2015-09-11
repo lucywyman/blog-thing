@@ -117,7 +117,7 @@ def archive():
     info = []
 
     for i in nav:
-        if i['filename'] != 'index.rst':
+        if i['filename'] != 'content/index.rst':
             info.append(i)
 
     with open(md['archive_template'], 'r') as f:
