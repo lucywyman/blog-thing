@@ -130,6 +130,7 @@ def archive():
                                archive_url=archive_url,
                                archive_cutoff=archive_cutoff,
                                is_archive=True,
+                               filename='archive',
                                navigation=info)
 
     try:

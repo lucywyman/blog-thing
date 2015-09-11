@@ -38,7 +38,13 @@
     {% endif %}
 {% endfor %}
     <li>
+    {% if filename == 'archive' %}
+    <strong>
     <a href="{{ archive_url }}"> Archive </a>
+    </strong>
+    {% else %}
+    <a href="{{ archive_url }}"> Archive </a>
+    {% endif %}
     </li>
 </ul>
 </nav>
